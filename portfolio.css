@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-size: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: 'inter','sans-serif;';
+}
+/* :root {
+	--bg-color:#191919;
+	--second--bg-color:#101010;
+	--main-color:#e9204f;
+	--text-color:#fff;
+	--second-color:#c6c9d8bf;
+	--other-color : #c6c9d8bf;
+
+	--h1--font:7rem;
+	--h2--font:3.5rem;
+--p-font: 1.1rem;
+}
+  */
+  body{
+	background-color: rgb(0, 0, 33);
+	color: white;
+  }
+  nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: rgb(18, 18, 62);
+  }
+  nav ul{
+	display: flex;
+	justify-content: center;
+	
+  }
+  nav ul li {
+	list-style: none;
+	margin: 0  23px;
+  }
+  nav ul li a{
+	text-decoration: none;
+	color: white;
+  }
+  nav ul li a:hover{
+	font-size: 1.2rem;
+	color: lavender;
+  }
+  .left{
+	font-size: 3rem;
+  }
+  .firstsection{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 130px 0;
+  }
+ .firstsection > div{     /*> iska matalab only first div ke liye hi ye work karega */
+	width: 30%;
+  }
+  .leftsection{
+
+	font-size: 3rem;
+	
+	
+  }
+  .leftsection .button{
+	padding: 50PX  0;
+  }
+  .leftsection .btn{
+	padding: 12px;
+	background: #1e2167;
+	color: white;
+	border: 2px solid white;
+	border-radius: 6px;
+	font-size: 20px;
+	cursor: pointer;
+  }
+  .rightsection img{
+	width: 80%;
+}
+.purpul{
+	color: rgb(170, 107, 228) ;
+}
+
+#element{
+	color: rgb(70, 70, 155);
+}
+main hr {
+	border: 0;
+	 background-color: #9c97f1;
+	  height: 1px;
+	   margin: 60px 84px;
+}
+.secondsection{
+	max-width: 80vw;
+	margin: auto;
+	height: 80vh;
+}
+.secondsection h1{
+	font-size: 1.9rem;
+}
+.text-gray{
+	color: gray;
+}
+.secondsection .box{
+	background: white;
+	width: 80vw;
+	height:2px ;
+	margin: 56px 0;
+	display: flex;
+
+}
+.secondsection .vartical{
+	height: 93px;
+	width: 1px;
+	background-color: #fff;
+	margin: 0 120px;
+}
+.image-top{
+	width: 23px;
+	position: relative;
+	top: -32px;
+	left: -9px;
+}
+.varical-text{
+position: relative;
+top:65px ;
+width: 150px;
+}
+.virtical-desc{
+	position: relative;
+    top: 83px;
+    width: 150px;
+    color: gray;
+    font-size: 11px;
+}
+footer{
+	display: flex;
+	background-color: #0e0e1a;
+	height: 233px;
+	
+}
+.footer{
+	display: flex;
+	padding: 23px  122px;
+	justify-content: space-between;
+	width: 100%;
+	color: gray;
+	
+	
+}
+.footer ul{
+	list-style: none;
+}
+/* .footer >div{
+	width: 237px;
+} */
+
+  
